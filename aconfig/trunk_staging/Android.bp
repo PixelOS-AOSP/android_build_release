@@ -19,6 +19,7 @@ aconfig_value_set {
       "aconfig-values-platform_build_release-trunk_staging-android.net.vcn-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.bluetooth.flags-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.media.performance.flags-all",
+      "aconfig-values-platform_build_release-trunk_staging-com.android.net.ct.flags-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.net.thread.platform.flags-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.server.am-all",
       "aconfig-values-platform_build_release-trunk_staging-android.app.wearable-all",
