@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f73e44db_44db964c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-11-22T12:37:39Z",
+      "side": 1,
+      "message": "Also update the OWNERS file in the root of this project to mark this file as owned by SDK_OWNERS.",
+      "revId": "b466bd0c0afc76c5369dcd0c8f3259bba4d20525",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f88aceb1_bd6c0f71",
+        "filename": "flag_declarations/RELEASE_PLATFORM_BASE_SDK_EXTENSION_VERSION.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-11-22T12:37:39Z",
+      "side": 1,
+      "message": "Should be `android_sdk`",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 27
+      },
+      "revId": "b466bd0c0afc76c5369dcd0c8f3259bba4d20525",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d0b899d_319f3ef4",
+        "filename": "flag_declarations/RELEASE_PLATFORM_BASE_SDK_EXTENSION_VERSION.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-11-22T12:37:39Z",
+      "side": 1,
+      "message": "Copy-paste from other flag. Update to reflect what this flag does. Bonus points if you spell out that it should only be changed when we bump RELEASE_PLATFORM_SDK_VERSION",
+      "range": {
+        "startLine": 3,
+        "startChar": 14,
+        "endLine": 3,
+        "endChar": 70
+      },
+      "revId": "b466bd0c0afc76c5369dcd0c8f3259bba4d20525",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
