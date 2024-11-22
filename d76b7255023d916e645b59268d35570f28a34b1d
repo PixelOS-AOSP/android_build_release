@@ -16,6 +16,24 @@
       "message": "I\u0027m wondering if it might not be better to add a new workflow for these flags.",
       "revId": "d76b7255023d916e645b59268d35570f28a34b1d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cb5ba51_2d30d4eb",
+        "filename": "flag_declarations/RELEASE_BUILD_PURGE_PRODUCT_ADB_KEYS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-22T21:29:24Z",
+      "side": 1,
+      "message": "But lets leave it as `MANUAL` for now.",
+      "parentUuid": "c892ccc0_7dd3d4e8",
+      "revId": "d76b7255023d916e645b59268d35570f28a34b1d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
