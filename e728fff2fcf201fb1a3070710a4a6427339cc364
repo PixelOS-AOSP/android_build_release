@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "556f9cc7_2a56ddf4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1959861
+      },
+      "writtenOn": "2024-11-22T21:45:36Z",
+      "side": 1,
+      "message": "It is to add the new socket hal service into the sepolicy service_context. \nIf the flag is disabled, the new socket hal service is not added.\n\nhttps://android-review.git.corp.google.com/c/platform/system/sepolicy/+/3317873/4/private/service_contexts\n\n```\nis_flag_enabled(RELEASE_BLUETOOTH_SOCKET_SERVICE, `\n    android.hardware.bluetooth.socket.IBluetoothSocket/default       u:object_r:hal_bluetooth_service:s0\n\u0027)\n```",
+      "parentUuid": "cafafe6c_43c1c8cf",
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "41b690b9_82e1e802",
         "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
         "patchSetId": 2
@@ -43,6 +61,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "56824c5a_dbc3697d",
+        "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1959861
+      },
+      "writtenOn": "2024-11-22T21:45:36Z",
+      "side": 1,
+      "message": "I\u0027m referring two textproto files about bluetooth but they are using android_UNKNOWN.\n\n```\nbuild/release/flag_declarations/RELEASE_APEX_CONTRIBUTIONS_BLUETOOTH.textproto\nbuild/release/flag_declarations/RELEASE_HARDWARE_BLUETOOTH_RANGING_SERVICE.textproto\n```",
+      "parentUuid": "41b690b9_82e1e802",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 27
+      },
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "073724b4_bad04fd4",
         "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
         "patchSetId": 2
@@ -54,6 +96,24 @@
       "writtenOn": "2024-11-22T19:36:22Z",
       "side": 1,
       "message": "`LAUNCH` flags begin `false` (delete lines 4-6 here for simplicity), and then are enabled in trunk_staging before promoting them the rest of the way to an actual release.",
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ea67787_cf8f5905",
+        "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1959861
+      },
+      "writtenOn": "2024-11-22T21:45:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "073724b4_bad04fd4",
       "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
