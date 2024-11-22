@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5386d118_d1d03b31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-22T22:11:23Z",
+      "side": 1,
+      "message": "OK.  As such, the flag declaration needs to leave the flag value false (default), and then a `flag_values/trunk_staging/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto` file can set it to true for trunk_staging.  After that, it gets promoted as per go/trunk-stable-speed-limits.\n\nAs it sits, this topic would make the change effective immediately in all release configs.",
+      "parentUuid": "556f9cc7_2a56ddf4",
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "41b690b9_82e1e802",
         "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
         "patchSetId": 2
@@ -73,6 +91,30 @@
       "side": 1,
       "message": "I\u0027m referring two textproto files about bluetooth but they are using android_UNKNOWN.\n\n```\nbuild/release/flag_declarations/RELEASE_APEX_CONTRIBUTIONS_BLUETOOTH.textproto\nbuild/release/flag_declarations/RELEASE_HARDWARE_BLUETOOTH_RANGING_SERVICE.textproto\n```",
       "parentUuid": "41b690b9_82e1e802",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 27
+      },
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d89d8c7a_51914282",
+        "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-22T22:11:23Z",
+      "side": 1,
+      "message": "There is a namespace `bluetooth`, but I suspect that no one has updated any of the build flag definitions yet, so you\u0027d only find it in aconfig flag declarations.",
+      "parentUuid": "56824c5a_dbc3697d",
       "range": {
         "startLine": 2,
         "startChar": 12,
