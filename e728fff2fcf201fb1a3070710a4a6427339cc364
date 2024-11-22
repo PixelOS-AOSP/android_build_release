@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cafafe6c_43c1c8cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-22T19:36:22Z",
+      "side": 1,
+      "message": "I looked at the topic for a while, but I could find neither:\n1. where this flag is actually used to enable new behavior, nor\n2. how legacy behavior is preserved when the flag is off.\n\nCan you point me somewhere that will help me see that?",
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "41b690b9_82e1e802",
+        "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-22T19:36:22Z",
+      "side": 1,
+      "message": "I suspect that bluetooth has a namespace for its aconfig flags already.  That should be used here instead of `android_UNKNOWN`.",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 27
+      },
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "073724b4_bad04fd4",
+        "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-22T19:36:22Z",
+      "side": 1,
+      "message": "`LAUNCH` flags begin `false` (delete lines 4-6 here for simplicity), and then are enabled in trunk_staging before promoting them the rest of the way to an actual release.",
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
