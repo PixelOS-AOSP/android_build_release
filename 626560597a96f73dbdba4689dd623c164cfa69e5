@@ -22,6 +22,30 @@
       },
       "revId": "626560597a96f73dbdba4689dd623c164cfa69e5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2dcaea43_5bb08ef2",
+        "filename": "flag_declarations/RELEASE_PLATFORM_BASE_SDK_EXTENSION_VERSION.textproto",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1053813
+      },
+      "writtenOn": "2024-11-22T12:57:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2948cf6e_b9fbe277",
+      "range": {
+        "startLine": 3,
+        "startChar": 159,
+        "endLine": 3,
+        "endChar": 168
+      },
+      "revId": "626560597a96f73dbdba4689dd623c164cfa69e5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
