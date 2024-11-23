@@ -54,6 +54,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "82ed64b2_f57c61e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1959861
+      },
+      "writtenOn": "2024-11-23T00:02:09Z",
+      "side": 1,
+      "message": "Thanks for the information. Added `flag_values/trunk_staging/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto` with false.",
+      "parentUuid": "5386d118_d1d03b31",
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "41b690b9_82e1e802",
@@ -115,6 +133,30 @@
       "side": 1,
       "message": "There is a namespace `bluetooth`, but I suspect that no one has updated any of the build flag definitions yet, so you\u0027d only find it in aconfig flag declarations.",
       "parentUuid": "56824c5a_dbc3697d",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 27
+      },
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "882b4f4d_88feb583",
+        "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1959861
+      },
+      "writtenOn": "2024-11-23T00:02:09Z",
+      "side": 1,
+      "message": "Then, can I use `android_UNKNOWN` or `bluetooth`?",
+      "parentUuid": "d89d8c7a_51914282",
       "range": {
         "startLine": 2,
         "startChar": 12,
