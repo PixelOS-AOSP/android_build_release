@@ -185,6 +185,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8951a0a0_74bbac4e",
+        "filename": "flag_declarations/RELEASE_BLUETOOTH_SOCKET_SERVICE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1959861
+      },
+      "writtenOn": "2024-11-23T02:07:27Z",
+      "side": 1,
+      "message": "Please let me if it is not correct.",
+      "parentUuid": "882b4f4d_88feb583",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 27
+      },
+      "revId": "e728fff2fcf201fb1a3070710a4a6427339cc364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "073724b4_bad04fd4",
