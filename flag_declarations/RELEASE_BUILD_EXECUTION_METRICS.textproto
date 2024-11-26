@@ -1,0 +1,5 @@
+name: "RELEASE_BUILD_EXECUTION_METRICS"
+namespace: "android_UNKNOWN"
+description: "Enable execution engine metrics gathering by Soong"
+workflow: LAUNCH
+containers: "host"

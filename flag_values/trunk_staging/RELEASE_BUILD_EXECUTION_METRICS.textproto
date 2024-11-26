@@ -1,0 +1,4 @@
+name: "RELEASE_BUILD_EXECUTION_METRICS"
+value: {
+  bool_value: true
+}
