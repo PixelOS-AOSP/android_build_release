@@ -1,0 +1,4 @@
+name: "RELEASE_BUILD_COMBINED_METRICS"
+value: {
+  bool_value: true
+}

@@ -1,0 +1,8 @@
+name: "RELEASE_BUILD_COMBINED_METRICS"
+namespace: "android_UNKNOWN"
+description: "Enable combined metrics gathering by Soong"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "host"
