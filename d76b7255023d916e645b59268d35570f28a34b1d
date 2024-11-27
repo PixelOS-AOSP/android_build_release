@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "697d7ee0_5af641ab",
+        "filename": "flag_declarations/RELEASE_BUILD_PURGE_PRODUCT_ADB_KEYS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 3438683
+      },
+      "writtenOn": "2024-11-27T10:31:23Z",
+      "side": 1,
+      "message": "Note to self: look for a namespace better than android_UNKNOWN as LaMont suggested offline.",
+      "revId": "d76b7255023d916e645b59268d35570f28a34b1d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c892ccc0_7dd3d4e8",
         "filename": "flag_declarations/RELEASE_BUILD_PURGE_PRODUCT_ADB_KEYS.textproto",
         "patchSetId": 1
