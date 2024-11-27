@@ -16,6 +16,23 @@
       "message": "+Owners for approval",
       "revId": "d2b774e7bbe18c1db0e2750937bb43ba39c06a80",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1307b8f5_be731820",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1981633
+      },
+      "writtenOn": "2024-11-27T19:18:43Z",
+      "side": 1,
+      "message": "Manual testing has been performed with pixel 6 on\naosp_oriole-trunk_staging-userdebug and oriole-trunk_staging-user to\nverify selinux issues have been resolved, the timeInState maps and\nprograms have been pinned with the correct permissions, the device boots\nsuccessfully, and that power stats are properly attributed.\nAdditionally, the device successfully passes atest libtimeinstate_test.",
+      "revId": "d2b774e7bbe18c1db0e2750937bb43ba39c06a80",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
