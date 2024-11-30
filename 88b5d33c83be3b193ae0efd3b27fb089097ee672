@@ -72,6 +72,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c365ed41_fb6d6089",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1975865
+      },
+      "writtenOn": "2024-11-30T03:11:43Z",
+      "side": 1,
+      "message": "I\u0027ve made changes to Android.bp and exported it via target/product/build_variables.mk",
+      "parentUuid": "ce0225cb_f2999516",
+      "revId": "88b5d33c83be3b193ae0efd3b27fb089097ee672",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "26cc5b60_c2dcc33e",
