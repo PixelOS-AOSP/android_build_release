@@ -147,7 +147,6 @@ aconfig_value_set {
       "aconfig-values-platform_build_release-ap3a-android.appwidget.flags-all",
       "aconfig-values-platform_build_release-ap3a-android.security-all",
       "aconfig-values-platform_build_release-ap3a-com.android.text.flags-all",
-      "aconfig-values-platform_build_release-ap3a-com.android.aconfig.test-all",
       "aconfig-values-platform_build_release-ap3a-com.google.android.iwlan.flags-all",
       "aconfig-values-platform_build_release-ap3a-android.adaptiveauth-all",
       "aconfig-values-platform_build_release-ap3a-com.android.media.aaudio-all",
