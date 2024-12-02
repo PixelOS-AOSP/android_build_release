@@ -63,7 +63,6 @@ aconfig_value_set {
       "aconfig-values-platform_build_release-trunk_staging-android.companion.virtualdevice.flags-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.server.policy.feature.flags-all",
       "aconfig-values-platform_build_release-trunk_staging-android.app-all",
-      "aconfig-values-platform_build_release-trunk_staging-com.android.aconfig.test-all",
       "aconfig-values-platform_build_release-trunk_staging-android.location.flags-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.net.thread.platform.flags-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.appsearch.flags-all",
