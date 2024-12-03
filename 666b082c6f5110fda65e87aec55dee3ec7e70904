@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6df00c2_7df59402",
+        "filename": "flag_declarations/RELEASE_ACONFIG_REQUIRE_ALL_READ_ONLY.textproto",
+        "patchSetId": 16
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1890055
+      },
+      "writtenOn": "2024-12-03T21:05:43Z",
+      "side": 1,
+      "message": "It only causes a build failure; it doesn\u0027t silently change the permission explicitly set in the flag value override.\nAs for the flags in `root`, that\u0027s for a different CL (aosp/3375289, which is still WIP), but it will require somehow removing all RW flags from release configurations which set this build flag to true.",
+      "parentUuid": "b277b2b4_47ffdf06",
+      "revId": "666b082c6f5110fda65e87aec55dee3ec7e70904",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "29494ea9_a781dcf8",
@@ -31,6 +49,30 @@
       "writtenOn": "2024-12-02T22:55:50Z",
       "side": 1,
       "message": "nit: not strictly necessary, since that is the default value for the flag.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "666b082c6f5110fda65e87aec55dee3ec7e70904",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc3f84fd_2f3eda15",
+        "filename": "flag_declarations/RELEASE_ACONFIG_REQUIRE_ALL_READ_ONLY.textproto",
+        "patchSetId": 16
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1890055
+      },
+      "writtenOn": "2024-12-03T21:05:43Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "29494ea9_a781dcf8",
       "range": {
         "startLine": 4,
         "startChar": 0,
