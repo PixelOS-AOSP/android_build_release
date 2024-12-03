@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8101da7_3230f68a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-12-03T21:11:49Z",
+      "side": 1,
+      "message": "Expect this to be \"CR-2: AP3A is read-only at this point, all changes are rejected\".  This will need to be done on \"an appropriate future release\" and then released to aosp as part of that release.\n\nYou are probably better off leaving the flags in \"root\", and then overriding them to read-only in $RELEASE and adjusting the integration test to be aware of `RELEASE_ACONFIG_REQUIRE_ALL_READ_ONLY` and expect that the R/W test flags should behave as R/O.",
+      "revId": "a4d2f7013a7f6d9e9ff5837cab6aaaec1749c6da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
