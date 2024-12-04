@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "350b14b2_647678e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1933945
+      },
+      "writtenOn": "2024-12-04T19:58:21Z",
+      "side": 1,
+      "message": "I will do a dummy Merged-In instead of DO NOT MERGE ANYWHERE next time, didn\u0027t realize that this will also affect release branch",
+      "revId": "436ad92c8b6a9f1f102755aba99288dd0a79c3b3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
