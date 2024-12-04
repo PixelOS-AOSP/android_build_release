@@ -68,6 +68,23 @@
       "parentUuid": "355d531c_1f0a697c",
       "revId": "5657ab95533ada07a7724a9a788ebd2b8de02722",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6cfe302_b9968f0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-12-04T16:21:22Z",
+      "side": 1,
+      "message": "If creating a new release config, the recommended approach would be to inherit from a platform release config (such as ap3a), and then explicitly override any flags that should be different in the new release config.\n\nThat said, we can see that trunk_staging doesn\u0027t inherit from anything.  We have left it that way in part because trunk_staging is the only valid release config at the tip of aosp/main.  (ap3a is only valid if you are at the ap3a release tag, or a manifest commit that is keeping the ap3a release config valid.)",
+      "revId": "5657ab95533ada07a7724a9a788ebd2b8de02722",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
