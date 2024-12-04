@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b906620_d87d8653",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1081223
+      },
+      "writtenOn": "2024-12-04T12:54:58Z",
+      "side": 1,
+      "message": "I\u0027m not exactly what\u0027s the policy on aosp/main sdk extension level, but it seemed weird for it to expose a lower version than what is actually supported (and released).\n\nI quickly verified it using the new pdf bits and they all seem to work fine",
+      "revId": "5657ab95533ada07a7724a9a788ebd2b8de02722",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
