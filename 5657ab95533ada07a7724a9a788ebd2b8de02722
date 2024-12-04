@@ -33,6 +33,23 @@
       "message": "I have no idea what this does.",
       "revId": "5657ab95533ada07a7724a9a788ebd2b8de02722",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "355d531c_1f0a697c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-12-04T13:06:11Z",
+      "side": 1,
+      "message": "Thanks for uploading this CL. However, I don\u0027t want to merge it.\n\nFor some build flags (like this one) I don\u0027t think having a default value makes sense, and ideally the build should verify that you set an explicit value somewhere in your release config hierarchy. With a default value, we risk ending up in a weird situation where an old release config (still present in the tree) that doesn\u0027t explicitly set a value gets a new value intended for newer release configs.\n\nUntil we\u0027ve sorted sorted out this discussion internally, I\u0027d prefer to leave the defaults as they are to not have to fix up old release configs.\n\nLaMont, thoughts?",
+      "revId": "5657ab95533ada07a7724a9a788ebd2b8de02722",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
