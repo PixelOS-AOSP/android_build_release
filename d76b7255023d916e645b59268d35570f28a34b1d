@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "641d32c6_7cf56768",
+        "filename": "flag_declarations/RELEASE_BUILD_PURGE_PRODUCT_ADB_KEYS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 3438683
+      },
+      "writtenOn": "2024-12-06T09:17:17Z",
+      "side": 1,
+      "message": "Looking through the list I didn\u0027t find a good match for this.\nOne of `android_sdk`, or `com_android_adbd` might be a good match, but I\u0027m not 100% confident about using either of them.\nAnyhow let\u0027s leave this as `android_UNKNOWN` for the time being, and revisit this later.",
+      "parentUuid": "697d7ee0_5af641ab",
+      "revId": "d76b7255023d916e645b59268d35570f28a34b1d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c892ccc0_7dd3d4e8",
