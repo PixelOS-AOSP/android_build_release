@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c128416d_3db4492b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1596561
+      },
+      "writtenOn": "2024-12-07T15:18:29Z",
+      "side": 1,
+      "message": "The open-source AOSP release for QPR1 is missing this patch and as a result, displays an older version SPL in Settings.",
+      "revId": "490ff2a9ddb54166ea5bcda419550a07ee62404c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
