@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e184f58b_8b83c2a6",
+        "filename": "flag_declarations/RELEASE_ACONFIG_NEW_EXPORTED.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-12-09T21:40:16Z",
+      "side": 1,
+      "message": "Launch flags should begin false (just drop lines 4-6), and then progress to true.",
+      "revId": "4d880e8f3d0b30a56cef8e1cdb7cfc6799fbe460",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
