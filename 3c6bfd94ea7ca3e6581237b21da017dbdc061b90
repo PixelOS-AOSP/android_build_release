@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8721da35_690631dc",
+        "filename": "flag_declarations/RELEASE_ENABLE_MAINLINE_ACONFIGD_SOCKET.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1890055
+      },
+      "writtenOn": "2024-12-12T21:59:54Z",
+      "side": 1,
+      "message": "Won\u0027t this break trunk functionality as soon as it lands?",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 19
+      },
+      "revId": "3c6bfd94ea7ca3e6581237b21da017dbdc061b90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
