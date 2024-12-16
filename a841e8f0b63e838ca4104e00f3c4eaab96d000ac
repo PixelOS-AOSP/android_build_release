@@ -16,6 +16,24 @@
       "message": "Where is this flag used?",
       "revId": "a841e8f0b63e838ca4104e00f3c4eaab96d000ac",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5d7fd02_a7385e71",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3438683
+      },
+      "writtenOn": "2024-12-16T11:03:38Z",
+      "side": 1,
+      "message": "Currently nowhere. The plan is to overwrite the value on dogfood images, see go/android-df-image for details.",
+      "parentUuid": "242fac86_393a6c42",
+      "revId": "a841e8f0b63e838ca4104e00f3c4eaab96d000ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
