@@ -1,0 +1,11 @@
+name: "RELEASE_PACKAGE_OS_CONSTANTS_GENERATED"
+namespace: "system_performance"
+description: "b/363284503 if true, generate OsConstants.java from android_system_OsConstants.o."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"
