@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5104a2b_b500d333",
+        "filename": "flag_declarations/RELEASE_LIBCORE_OS_CONSTANTS_GENERATED.textproto",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1059977
+      },
+      "writtenOn": "2024-12-19T00:13:16Z",
+      "side": 1,
+      "message": "DO NOT SUBMIT change default to false",
+      "revId": "bddefc6523f599bcbf3da193c90b154fd4328780",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
