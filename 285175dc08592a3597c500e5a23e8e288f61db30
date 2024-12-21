@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "729791bf_9936485c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1059977
+      },
+      "writtenOn": "2024-12-21T17:38:02Z",
+      "side": 1,
+      "message": "TODO rename LIBCORE to SYSTEM_PERFORMANCE",
+      "revId": "285175dc08592a3597c500e5a23e8e288f61db30",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
