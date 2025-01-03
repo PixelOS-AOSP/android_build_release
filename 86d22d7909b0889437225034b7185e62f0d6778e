@@ -16,6 +16,24 @@
       "message": "Would be great to include a bug link in the CL description for additional context for the feature and its behavior. The odex size reduction is really encouraging based on the presubmit Bloat Buster results!\n\nFWIW, for future build flags you can use the `system_performance` namespace and that will let you use Gantry to ramp the build flag. Not sure if you can change the namespace now that it\u0027s already defined though.",
       "revId": "86d22d7909b0889437225034b7185e62f0d6778e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8173c0bc_2f7307ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1327199
+      },
+      "writtenOn": "2025-01-03T11:34:41Z",
+      "side": 1,
+      "message": "Thanks for the heads up on the `system_performance` namespace. I will keep that in mind for next time.\n\nI linked to b/278964529 in the CL description, which contains a reference to the design document.",
+      "parentUuid": "b70ee248_ebfd1b45",
+      "revId": "86d22d7909b0889437225034b7185e62f0d6778e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
