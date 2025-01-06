@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e882d496_aabe5521",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2025-01-06T05:19:23Z",
+      "side": 1,
+      "message": "This file is unnecessary, since it\u0027s setting the value to false, which is also the default. You should remove this file, and follow the gantry-based procuedure outlined in go/android-build-flags (after setting the namespace).",
+      "revId": "f508136c787ee6c93f6a83aee75d64a6083160b4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
