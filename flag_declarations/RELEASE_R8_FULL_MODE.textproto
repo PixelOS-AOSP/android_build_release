@@ -1,0 +1,8 @@
+name:  "RELEASE_R8_FULL_MODE"
+namespace:  "system_performance"
+description:  "feature flag for enabling R8 full mode in more build targets"
+workflow:  LAUNCH
+containers:  "product"
+containers:  "system"
+containers:  "system_ext"
+containers:  "vendor"
