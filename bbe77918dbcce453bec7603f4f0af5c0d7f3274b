@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7066b3e4_7fc68e39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2025-01-07T20:21:05Z",
+      "side": 1,
+      "message": "Maybe add something like \"Currently, R8 full mode is enabled by default only for app targets, and this will be used to broaden that set of defaults.\" to the CL description as additional context?\n\nAlso, just to be clear, we\u0027ll use this to change the defaults for all targets, not override/ignore any explicit opt-out of full mode?",
+      "revId": "bbe77918dbcce453bec7603f4f0af5c0d7f3274b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
