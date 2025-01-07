@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3fab1358_4816c3f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2025-01-07T20:23:41Z",
+      "side": 1,
+      "message": "Oh, I thought you were going to add this as a flag in R8Wrapper?\n\nIf this would be used to fail build targets, I don\u0027t think we need a build flag, we just need to fix existing exceptions and turn new ones into build failures.",
+      "revId": "c2cd9e2fb0a6525c9cb90f5d168ce1200de7d81e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
