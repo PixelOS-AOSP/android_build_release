@@ -1,0 +1,8 @@
+name:  "RELEASE_R8_FULL_MODE_FOR_COMPAT_OPT_IN_TARGETS"
+namespace:  "system_performance"
+description:  "feature flag for migrating existing targets that explicitly set R8 compatibility mode to R8 full mode"
+workflow:  LAUNCH
+containers:  "product"
+containers:  "system"
+containers:  "system_ext"
+containers:  "vendor"
