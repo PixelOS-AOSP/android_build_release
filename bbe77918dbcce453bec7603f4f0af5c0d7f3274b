@@ -16,6 +16,24 @@
       "message": "Maybe add something like \"Currently, R8 full mode is enabled by default only for app targets, and this will be used to broaden that set of defaults.\" to the CL description as additional context?\n\nAlso, just to be clear, we\u0027ll use this to change the defaults for all targets, not override/ignore any explicit opt-out of full mode?",
       "revId": "bbe77918dbcce453bec7603f4f0af5c0d7f3274b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e977b475_289f98b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1327199
+      },
+      "writtenOn": "2025-01-08T07:07:31Z",
+      "side": 1,
+      "message": "I was actually thinking to use this flag to enable R8 full mode for everything. Whether this is feasible or not is difficult to tell before trying.\n\nI will revise and roll this out in two stages. First enabling R8 full mode by default for all build targets using this flag (I renamed this flag to `RELEASE_R8_FULL_MODE_BY_DEFAULT`), and then subsequently introduce another flag for migrating apps that explicitly set R8 compatibility mode to R8 full mode.\n\nI also updated the CL description. Note that as of aosp/3439399 I believe R8 full mode is also the default for tests, unless tests do not necessarily go through `AndroidTestHelperAppFactory`.",
+      "parentUuid": "7066b3e4_7fc68e39",
+      "revId": "bbe77918dbcce453bec7603f4f0af5c0d7f3274b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
