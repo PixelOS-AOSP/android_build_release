@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9df11a1f_7fad65a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2025-01-08T16:51:31Z",
+      "side": 1,
+      "message": "I\u0027m still a bit wary of unconditionally overriding the current opt-outs, as it could be a lot of flag enable/disable revert churn. I would be OK with banning any new usage of the opt-out while we burn down the exception list, but I don\u0027t love the idea of just trying to land this and seeing what breaks, as the breakage can be pretty subtle for a given target.\n\nThat said, would a name like `RELEASE_R8_FORCE_FULL_MODE` or `RELEASE_R8_DEPRECATE_COMPAT_MODE` have the same meaning?",
+      "revId": "47c9c1b7d60c42342f5c84082ef34e1198229561",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
