@@ -34,6 +34,24 @@
       "parentUuid": "9df11a1f_7fad65a9",
       "revId": "47c9c1b7d60c42342f5c84082ef34e1198229561",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4127b08c_7188a1a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2025-01-09T20:09:27Z",
+      "side": 1,
+      "message": "Oh great, yeah for `SdkSandbox` it was mostly just internal/external source skew. That should be resolved now so I\u0027d be comfortable relaxing the opt-out directly without a build flag. \n\nFor bluetooth, I think the issue was primarily with tests and mocking, b/289285719. That we may also be able to resolve without needing a build flag.",
+      "parentUuid": "8e0b9e95_b7d4fc70",
+      "revId": "47c9c1b7d60c42342f5c84082ef34e1198229561",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
