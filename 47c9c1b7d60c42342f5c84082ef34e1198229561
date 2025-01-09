@@ -52,6 +52,24 @@
       "parentUuid": "8e0b9e95_b7d4fc70",
       "revId": "47c9c1b7d60c42342f5c84082ef34e1198229561",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d75ecb8a_7ee594dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2025-01-09T20:26:27Z",
+      "side": 1,
+      "message": "I\u0027ll follow up on the Bluetooth opt-out and see what I can find.",
+      "parentUuid": "4127b08c_7188a1a8",
+      "revId": "47c9c1b7d60c42342f5c84082ef34e1198229561",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
