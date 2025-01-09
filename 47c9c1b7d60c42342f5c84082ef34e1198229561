@@ -16,6 +16,24 @@
       "message": "I\u0027m still a bit wary of unconditionally overriding the current opt-outs, as it could be a lot of flag enable/disable revert churn. I would be OK with banning any new usage of the opt-out while we burn down the exception list, but I don\u0027t love the idea of just trying to land this and seeing what breaks, as the breakage can be pretty subtle for a given target.\n\nThat said, would a name like `RELEASE_R8_FORCE_FULL_MODE` or `RELEASE_R8_DEPRECATE_COMPAT_MODE` have the same meaning?",
       "revId": "47c9c1b7d60c42342f5c84082ef34e1198229561",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e0b9e95_b7d4fc70",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1327199
+      },
+      "writtenOn": "2025-01-09T13:18:18Z",
+      "side": 1,
+      "message": "From what I can tell we only have very few opt-outs. More specifically, it seems to me that these two targets are the only ones that explicitly disables full mode:\n\n```\npackages/modules/AdServices/sdksandbox/SdkSandbox/Android.bp\npackages/modules/Bluetooth/android/app/Android.bp\n```\n\nInstead of adding a single feature flag to switch these two targets, what if we did one feature flag per build, `RELEASE_R8_FULL_MODE_FOR_BLUETOOTH` and `RELEASE_R8_FULL_MODE_FOR_SDK_SANDBOX`?\n\nI realize that we may need to add more explicit opt-outs as a side effect of enabling R8 full mode by default, but we can tackle those separately.\n\nRegarding `SdkSandbox`, I did come across b/293177283. I also tried running the tests that led us to enable compatibility mode for this target, and they seem to succeed on main with R8 full mode enabled (https://android-build.corp.google.com/abtd/run/L65200030008723828/).",
+      "parentUuid": "9df11a1f_7fad65a9",
+      "revId": "47c9c1b7d60c42342f5c84082ef34e1198229561",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
