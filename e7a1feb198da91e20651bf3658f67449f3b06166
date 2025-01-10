@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c178c36_de9b06a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1081223
+      },
+      "writtenOn": "2025-01-10T13:01:57Z",
+      "side": 1,
+      "message": "This is currently breaking building gsi_arm64, and probably all the other gsi targets as well, in aosp/main since the system_ext_image_defaults target now depends on undefined modules :/",
+      "revId": "e7a1feb198da91e20651bf3658f67449f3b06166",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
