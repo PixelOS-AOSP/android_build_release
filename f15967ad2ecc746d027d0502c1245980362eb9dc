@@ -16,6 +16,24 @@
       "message": "Applicable to all files in the CL:\n1. There should already be a valid namespace (or one per?) for these flags.  Can we use that instead of `android_UNKNOWN`?\n2. Please add a description.",
       "revId": "f15967ad2ecc746d027d0502c1245980362eb9dc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97401a77_bda62e5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1841165
+      },
+      "writtenOn": "2025-01-16T17:51:45Z",
+      "side": 1,
+      "message": "\u003e There should already be a valid namespace (or one per?) for these flags. Can we use that instead of android_UNKNOWN?\n\n\nDiscussed offline\n\n\u003e Please add a description\n\nAdded the description",
+      "parentUuid": "3c659804_3d9e6906",
+      "revId": "f15967ad2ecc746d027d0502c1245980362eb9dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
