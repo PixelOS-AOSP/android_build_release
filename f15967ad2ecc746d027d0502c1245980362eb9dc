@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c659804_3d9e6906",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2025-01-16T16:52:12Z",
+      "side": 1,
+      "message": "Applicable to all files in the CL:\n1. There should already be a valid namespace (or one per?) for these flags.  Can we use that instead of `android_UNKNOWN`?\n2. Please add a description.",
+      "revId": "f15967ad2ecc746d027d0502c1245980362eb9dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
