@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd805917_8f5b3425",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2025-01-17T16:48:00Z",
+      "side": 1,
+      "message": "With Gantry you shouldn\u0027t need to land this manually.",
+      "revId": "6d61c20293cd7d758a5f21c2738a096695e62237",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
