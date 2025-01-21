@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "713bccde_f7044cf0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2025-01-21T19:51:23Z",
+      "side": 1,
+      "message": "I plan to submit this change Wed morning, and follow with the other `flag_values` instances a bit later.  The declaration file deletion can wait until next weel.",
+      "revId": "4e76d3052a106f5af18ca785c66e271095793790",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
