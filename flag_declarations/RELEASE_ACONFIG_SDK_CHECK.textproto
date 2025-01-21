@@ -1,0 +1,8 @@
+name: "RELEASE_ACONFIG_SDK_CHECK"
+namespace: "core_experiments_team_internal"
+description: "Control checking the SDK level for exported flags guarding finalized APIs."
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"
