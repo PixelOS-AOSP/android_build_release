@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3267f24_12bf8b65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1283396
+      },
+      "writtenOn": "2025-01-24T22:25:08Z",
+      "side": 1,
+      "message": "@Joe we are defining the build flag here and will set it in the automotive specific flag_values director after such that it only applies to automotive targets",
+      "revId": "10febb39906ba9f25046f2a359315f728f73efad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
