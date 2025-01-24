@@ -16,6 +16,23 @@
       "message": "@lamontjones@google.com can you review?",
       "revId": "bc2c2195bb5103c29d1580faaaf3654d008d63df",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e2d4247_00c342c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1146974
+      },
+      "writtenOn": "2025-01-24T00:35:24Z",
+      "side": 1,
+      "message": "202504 vendor APIs are already frozen. AOSP may not work on a frozen API level.\nAlong with the internal branch, CPing the next vendor API level 202604 as the trunk_staging version in aosp, too.",
+      "revId": "bc2c2195bb5103c29d1580faaaf3654d008d63df",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
