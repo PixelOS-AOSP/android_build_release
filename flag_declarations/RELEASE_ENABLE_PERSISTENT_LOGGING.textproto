@@ -1,0 +1,11 @@
+name: "RELEASE_ENABLE_PERSISTENT_LOGGING"
+namespace: "android_UNKNOWN"
+value: {
+  bool_value: false
+}
+description: "Save the output of logcat to persistent storage."
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

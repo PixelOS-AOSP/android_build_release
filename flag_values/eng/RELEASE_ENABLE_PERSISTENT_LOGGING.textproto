@@ -1,0 +1,4 @@
+name: "RELEASE_ENABLE_PERSISTENT_LOGGING"
+value: {
+  bool_value: true
+}
