@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cfad36bb_18abe472",
+        "filename": "flag_declarations/RELEASE_SOONG_ONLY_CUTTLEFISH.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2025-01-24T00:43:40Z",
+      "side": 1,
+      "message": "strictly speaking, this is not needed.  That said, it\u0027s fine.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "9bfba71f1381e3e22e41b4914cd341f0c91c6b96",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
