@@ -16,6 +16,23 @@
       "message": "@Joe we are defining the build flag here and will set it in the automotive specific flag_values director after such that it only applies to automotive targets",
       "revId": "10febb39906ba9f25046f2a359315f728f73efad",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bba064aa_ca881110",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2025-01-29T16:48:12Z",
+      "side": 1,
+      "message": "It seems weird for it to be called car_something if it\u0027s here and only going to be turned on for car. Would it be better to call it just RELEASE_FRAMEWORK_NATIVE_POWER_NOTIFICATIONS and you only happen to turn it on for car? Maybe some other form factor would want it too.",
+      "revId": "10febb39906ba9f25046f2a359315f728f73efad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
