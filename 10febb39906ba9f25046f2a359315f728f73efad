@@ -33,6 +33,24 @@
       "message": "It seems weird for it to be called car_something if it\u0027s here and only going to be turned on for car. Would it be better to call it just RELEASE_FRAMEWORK_NATIVE_POWER_NOTIFICATIONS and you only happen to turn it on for car? Maybe some other form factor would want it too.",
       "revId": "10febb39906ba9f25046f2a359315f728f73efad",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a32ca34b_9c30e2e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1165189
+      },
+      "writtenOn": "2025-01-29T18:32:29Z",
+      "side": 1,
+      "message": "I see other build flag for car project, and it is [RELEASE_CAR_SYS_EXP_TOS_RESTRICTIONS](https://source.corp.google.com/h/googleplex-android/platform/superproject/main/+/main:build/release/flag_declarations/RELEASE_CAR_SYS_EXP_TOS_RESTRICTIONS.textproto), which is RELEASE + [namespace] + [feature name].\n\nSo, I am trying to be consistent in the naming.\nI don\u0027t have a strong preference. Either RELEASE_FRAMEWORK_NATIVE_POWER_NOTIFICATIONS or RELEASE_CAR_FRAMEWORK_NATIVE_POWER_NOTIFICATIONS is okay.",
+      "parentUuid": "bba064aa_ca881110",
+      "revId": "10febb39906ba9f25046f2a359315f728f73efad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
