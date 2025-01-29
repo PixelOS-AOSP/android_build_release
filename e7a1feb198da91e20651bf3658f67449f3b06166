@@ -50,6 +50,23 @@
       "message": "Ping? I\u0027d love for aosp gsi to be buildable :)",
       "revId": "e7a1feb198da91e20651bf3658f67449f3b06166",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "adb457c0_8c2e757b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2025-01-29T16:16:37Z",
+      "side": 1,
+      "message": "It looks like something wrote this to the wrong directory. Oriol, do you know what happened? There\u0027s probably a corresponding change that needs to be made to a pixel only directory on internal.",
+      "revId": "e7a1feb198da91e20651bf3658f67449f3b06166",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
