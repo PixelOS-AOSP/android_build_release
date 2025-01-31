@@ -51,6 +51,24 @@
       "parentUuid": "bba064aa_ca881110",
       "revId": "10febb39906ba9f25046f2a359315f728f73efad",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60ccc539_2d811482",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1165189
+      },
+      "writtenOn": "2025-01-31T18:31:42Z",
+      "side": 1,
+      "message": "Renamed to RELEASE_FRAMEWORK_NATIVE_POWER_NOTIFICATIONS. PTAL.",
+      "parentUuid": "a32ca34b_9c30e2e0",
+      "revId": "10febb39906ba9f25046f2a359315f728f73efad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
