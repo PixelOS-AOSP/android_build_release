@@ -1,0 +1,11 @@
+name: "RELEASE_ALLOW_STRING_FLAGS"
+namespace: "core_experiments_team_internal"
+description: "If true, it's possible to label an aconfig flag as a string flag."
+value: {
+  bool_value: false
+}
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"
