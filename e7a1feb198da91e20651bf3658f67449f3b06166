@@ -67,6 +67,24 @@
       "message": "It looks like something wrote this to the wrong directory. Oriol, do you know what happened? There\u0027s probably a corresponding change that needs to be made to a pixel only directory on internal.",
       "revId": "e7a1feb198da91e20651bf3658f67449f3b06166",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09986c6f_5e7b4882",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1081223
+      },
+      "writtenOn": "2025-02-06T17:36:13Z",
+      "side": 1,
+      "message": "Was there any progress on that? using aosp_arm64 works for me, but gsi_arm64 is busted atm",
+      "parentUuid": "adb457c0_8c2e757b",
+      "revId": "e7a1feb198da91e20651bf3658f67449f3b06166",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
