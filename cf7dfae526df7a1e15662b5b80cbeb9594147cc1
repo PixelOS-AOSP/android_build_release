@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "640389a3_c2864dce",
+        "filename": "flag_values/trunk_staging/RELEASE_SERVICES_JAVA_GENRULE_COMBINER.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2025-02-07T19:04:14Z",
+      "side": 1,
+      "message": "Do you want to put this in a folloup CL so that the whole topic doesn\u0027t get reverted if it breaks something?",
+      "revId": "cf7dfae526df7a1e15662b5b80cbeb9594147cc1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
