@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "new_lockscreen_ratelimiting"
+  state: ENABLED
+  permission: READ_WRITE
+}
