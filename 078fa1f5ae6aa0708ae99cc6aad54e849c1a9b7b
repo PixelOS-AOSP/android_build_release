@@ -16,6 +16,24 @@
       "message": "Looks like that the ART-specific OWNER file has been removed?",
       "revId": "078fa1f5ae6aa0708ae99cc6aad54e849c1a9b7b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04284545_54f422c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2025-02-14T11:23:32Z",
+      "side": 1,
+      "message": "Indeed. It was removed in the AOSP merge https://r.android.com/3413659, but the original deletion comes from a flag sync in http://ag/30322396. I suspect it\u0027s the result of some update script. @iankaz@google.com, would it be possible to leave OWNERS files untouched in future flag updates?\n\nWe added an ART-specific one in https://r.android.com/3214057 to somewhat ameliate the lack of AOSP-first support in TS, cf. b/356154185.",
+      "parentUuid": "003662dd_d11338ae",
+      "revId": "078fa1f5ae6aa0708ae99cc6aad54e849c1a9b7b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
