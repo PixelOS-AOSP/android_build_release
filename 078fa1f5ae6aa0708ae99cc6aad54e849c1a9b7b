@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "003662dd_d11338ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1047684
+      },
+      "writtenOn": "2025-02-14T09:51:33Z",
+      "side": 1,
+      "message": "Looks like that the ART-specific OWNER file has been removed?",
+      "revId": "078fa1f5ae6aa0708ae99cc6aad54e849c1a9b7b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
