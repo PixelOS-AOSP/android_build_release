@@ -16,6 +16,23 @@
       "message": "This fixes \u0027atest apf_run_test\u0027 but not \u0027atest -s SN apf_run_test\u0027",
       "revId": "d398acac126166cedebf35879827f88f9df07b10",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb27d685_56a94828",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2025-02-15T19:16:30Z",
+      "side": 1,
+      "message": "and it fixes atest CtsNetTestCases to actually start execution as opposed to failing with some .dynamic config file missing error.",
+      "revId": "d398acac126166cedebf35879827f88f9df07b10",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
