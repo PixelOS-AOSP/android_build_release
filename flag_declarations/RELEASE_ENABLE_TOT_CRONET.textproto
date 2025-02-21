@@ -1,0 +1,5 @@
+name:  "RELEASE_ENABLE_TOT_CRONET"
+namespace:  "android.net.http"
+description:  "Blah blah blah"
+workflow:  LAUNCH
+containers:  "com.android.tethering"
