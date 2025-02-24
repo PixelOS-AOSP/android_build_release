@@ -34,6 +34,23 @@
       "parentUuid": "003662dd_d11338ae",
       "revId": "078fa1f5ae6aa0708ae99cc6aad54e849c1a9b7b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0479e0ac_2eb51c5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1047684
+      },
+      "writtenOn": "2025-02-24T14:41:33Z",
+      "side": 1,
+      "message": "Joe, could you help for the owner review? it\u0027s a cherry-pick",
+      "revId": "078fa1f5ae6aa0708ae99cc6aad54e849c1a9b7b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
