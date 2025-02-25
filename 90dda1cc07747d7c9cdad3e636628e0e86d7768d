@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc27c058_fe96ba2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1327199
+      },
+      "writtenOn": "2025-02-25T19:59:48Z",
+      "side": 1,
+      "message": "Sorry for the noise with the other CLs.",
+      "revId": "90dda1cc07747d7c9cdad3e636628e0e86d7768d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
