@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecb4acd4_b66c39ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1743321
+      },
+      "writtenOn": "2025-02-26T14:51:41Z",
+      "side": 1,
+      "message": "Hello Joe,\n\nFollowing up on our meeting 2 weeks ago (http://go/pony-1-pager). I\u0027ve come up with this build flag to switch between the two versions of Cronet (having a concrete CL makes figuring out the implementation details easier).\n\nAs discussed, the idea is then to configure trunk_staging and trunk to use ToT (i.e., set this flag to true). While next and mainline will keep it to false/undefined.\n\nLMK if I\u0027m doing anything wrong/you have any questions.",
+      "revId": "f840ffe349789761d6c851ed8a0c22049c7d1d41",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
