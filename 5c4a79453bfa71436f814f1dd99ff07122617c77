@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fb76968_737ba8c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1165189
+      },
+      "writtenOn": "2025-03-13T22:12:05Z",
+      "side": 1,
+      "message": "Due to AOSP code policy change, we decide to use the internal git even for advance to trunk staging.\n\nCan you land this CL to the internal git?",
+      "revId": "5c4a79453bfa71436f814f1dd99ff07122617c77",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
