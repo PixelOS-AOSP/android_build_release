@@ -1,0 +1,4 @@
+name: "RELEASE_JAVA_USE_D8"
+namespace: "android_UNKNOWN"
+description: "Build variant flag: whether to use d8 instead of r8 for dexing. Generally true only for eng builds."
+workflow: MANUAL
