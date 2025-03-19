@@ -1,0 +1,4 @@
+name: "RELEASE_JAVA_USE_D8"
+value: {
+  bool_value: true
+}
