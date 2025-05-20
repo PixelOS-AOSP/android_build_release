@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "use_call_connected_indicator_tone"
+  state: ENABLED
+  permission: READ_WRITE
+}
